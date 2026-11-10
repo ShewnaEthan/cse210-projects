@@ -1,0 +1,26 @@
+Abstraction is breaking a project or prgram into smaller pieces that are easier to handle on their own.
+
+Abstraction is benifical because it makes it easier to build a program from the ground up by focusing on one part at a time.
+
+Abstraction is used when you make classes to handle a few related tasks.
+
+Code snippet: 
+public class Entry
+{
+    public string _date;
+    public string _promptText;
+    public string _entryText;
+    public string _entryBook;
+
+    public void Display()
+    {
+        Console.WriteLine("");
+        Console.WriteLine($"Date: {_date}");
+        Console.WriteLine($"Prompt: {_promptText}");
+        Console.WriteLine(_entryText);
+        Console.WriteLine(_entryBook);
+    }
+}
+
+This piece of code is an Abstraction of the journal project because its just a small part that can be created on its own.
+
